@@ -40,7 +40,7 @@ public class Problema4 {
         
     }
     
-    public static String calcularValorLuz(String a, String b){
+    public static void calcularValorLuz(String a, String b){
         Scanner entrada = new Scanner(System.in);
         
         double valorK;
@@ -57,11 +57,11 @@ public class Problema4 {
         
         cadena = "Cliente "+ a +" con cedula "+ b +" debe cancelar el valor de "
                 + total +"\n";
+        
         System.out.printf("%s\n",cadena);
-        return cadena;
     }
     
-    public static String calcularValorPredio(String a, String b){
+    public static void calcularValorPredio(String a, String b){
         Scanner entrada = new Scanner(System.in);
         
         double valorI;
@@ -78,6 +78,5 @@ public class Problema4 {
                 valorPredio +"\n";
         
         System.out.printf("%s\n",cadena);
-        return cadena;
     }
 }
